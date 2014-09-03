@@ -1,0 +1,313 @@
+[
+    {
+        "name": "composer/installers",
+        "version": "v1.0.18",
+        "version_normalized": "1.0.18.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
+            "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
+            "shasum": ""
+        },
+        "replace": {
+            "roundcube/plugin-installer": "*",
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2014-08-18 20:00:12",
+        "type": "composer-installer",
+        "extra": {
+            "class": "Composer\\Installers\\Installer",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Composer\\Installers\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "http://composer.github.com/installers/",
+        "keywords": [
+            "Craft",
+            "Dolibarr",
+            "Hurad",
+            "MODX Evo",
+            "OXID",
+            "WolfCMS",
+            "agl",
+            "annotatecms",
+            "bitrix",
+            "cakephp",
+            "chef",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "drupal",
+            "elgg",
+            "fuelphp",
+            "installer",
+            "joomla",
+            "kohana",
+            "laravel",
+            "lithium",
+            "magento",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "moodle",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "puppet",
+            "roundcube",
+            "shopware",
+            "silverstripe",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "zend",
+            "zikula"
+        ]
+    },
+    {
+        "name": "fancyguy/webroot-installer",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fancyguy/webroot-installer.git",
+            "reference": "a2d5c2e149d837e5580a62a91d3c91577aa30d28"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fancyguy/webroot-installer/zipball/a2d5c2e149d837e5580a62a91d3c91577aa30d28",
+            "reference": "a2d5c2e149d837e5580a62a91d3c91577aa30d28",
+            "shasum": ""
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2013-03-15 17:51:14",
+        "type": "composer-installer",
+        "extra": {
+            "class": "FancyGuy\\Composer\\WebrootInstaller"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "FancyGuy\\Composer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Steve Buzonas",
+                "email": "steve@fancyguy.com",
+                "homepage": "http://www.stevebuzonas.com"
+            }
+        ],
+        "description": "A composer installer for libraries that live in an application webroot.",
+        "homepage": "http://fancyguy.github.com/webroot-installer/"
+    },
+    {
+        "name": "wpackagist-plugin/clean-and-simple-contact-form-by-meg-nicholas",
+        "version": "4.3.4",
+        "version_normalized": "4.3.4.0",
+        "source": {
+            "type": "svn",
+            "url": "http://plugins.svn.wordpress.org/clean-and-simple-contact-form-by-meg-nicholas/",
+            "reference": "tags/4.3.4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://downloads.wordpress.org/plugin/clean-and-simple-contact-form-by-meg-nicholas.4.3.4.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "replace": {
+            "wpackagist/clean-and-simple-contact-form-by-meg-nicholas": "self.version"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "http://wordpress.org/plugins/clean-and-simple-contact-form-by-meg-nicholas/"
+    },
+    {
+        "name": "wpackagist-plugin/wp-slimstat",
+        "version": "3.6.9",
+        "version_normalized": "3.6.9.0",
+        "source": {
+            "type": "svn",
+            "url": "http://plugins.svn.wordpress.org/wp-slimstat/",
+            "reference": "tags/3.6.9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://downloads.wordpress.org/plugin/wp-slimstat.3.6.9.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "replace": {
+            "wpackagist/wp-slimstat": "self.version"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "http://wordpress.org/plugins/wp-slimstat/"
+    },
+    {
+        "name": "wpackagist-plugin/theme-check",
+        "version": "20131213.1",
+        "version_normalized": "20131213-1",
+        "source": {
+            "type": "svn",
+            "url": "http://plugins.svn.wordpress.org/theme-check/",
+            "reference": "tags/20131213.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://downloads.wordpress.org/plugin/theme-check.20131213.1.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "replace": {
+            "wpackagist/theme-check": "self.version"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "http://wordpress.org/plugins/theme-check/"
+    },
+    {
+        "name": "wpackagist-plugin/a-fresher-cache",
+        "version": "0.1.2",
+        "version_normalized": "0.1.2.0",
+        "source": {
+            "type": "svn",
+            "url": "http://plugins.svn.wordpress.org/a-fresher-cache/",
+            "reference": "tags/0.1.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://downloads.wordpress.org/plugin/a-fresher-cache.0.1.2.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "replace": {
+            "wpackagist/a-fresher-cache": "self.version"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "http://wordpress.org/plugins/a-fresher-cache/"
+    },
+    {
+        "name": "wpackagist-plugin/piklist",
+        "version": "0.9.4.12",
+        "version_normalized": "0.9.4.12",
+        "source": {
+            "type": "svn",
+            "url": "http://plugins.svn.wordpress.org/piklist/",
+            "reference": "tags/0.9.4.12"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://downloads.wordpress.org/plugin/piklist.0.9.4.12.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "replace": {
+            "wpackagist/piklist": "self.version"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "http://wordpress.org/plugins/piklist/"
+    },
+    {
+        "name": "wpackagist-plugin/wordpress-importer",
+        "version": "0.6.1",
+        "version_normalized": "0.6.1.0",
+        "source": {
+            "type": "svn",
+            "url": "http://plugins.svn.wordpress.org/wordpress-importer/",
+            "reference": "tags/0.6.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://downloads.wordpress.org/plugin/wordpress-importer.0.6.1.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "replace": {
+            "wpackagist/wordpress-importer": "self.version"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "http://wordpress.org/plugins/wordpress-importer/"
+    },
+    {
+        "name": "wpackagist-plugin/wp-migrate-db",
+        "version": "0.6",
+        "version_normalized": "0.6.0.0",
+        "source": {
+            "type": "svn",
+            "url": "http://plugins.svn.wordpress.org/wp-migrate-db/",
+            "reference": "tags/0.6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://downloads.wordpress.org/plugin/wp-migrate-db.0.6.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "replace": {
+            "wpackagist/wp-migrate-db": "self.version"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "http://wordpress.org/plugins/wp-migrate-db/"
+    }
+]

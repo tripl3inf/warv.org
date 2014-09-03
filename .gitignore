@@ -32,7 +32,7 @@ content/uploads/*
 content/upgrade/*
 content/cache/*
 content/backup/*
-wp-config.php
+#wp-config.php
 
 # Misc #
 ###################
@@ -41,9 +41,9 @@ _assets
 node_modules
 ai-cache/*
 
-wordpress/**
-vendor/**
-**/vendor/**
+#wordpress/**
+#vendor/**
+#**/vendor/**
 #content/plugins/**
 #content/mu-plugins/**
 
