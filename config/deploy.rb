@@ -11,7 +11,7 @@ require './config/slack'
 set :wp_user, "tripl3inf" # The admin username
 set :wp_email, "tripl3infinity@gmail.com" # The admin email address
 set :wp_sitename, "warriorvodka.org" # The site title
-set :wp_localurl, "http://localhost" # Your local environment URL
+set :wp_localurl, "http://192.168.33.99" # Your local environment URL
 
 ############################################
 # Setup project
@@ -30,7 +30,7 @@ set :branch, :master
 ############################################
 
 set :log_level,  :debug ### or :info
-set :use_sudo, true
+set :use_sudo, false
 
 set :ssh_options, {
   forward_agent: true
