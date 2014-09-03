@@ -30,7 +30,7 @@ set :branch, :master
 ############################################
 
 set :log_level,  :debug ### or :info
-set :use_sudo, false
+set :use_sudo, true
 
 set :ssh_options, {
   forward_agent: true
@@ -56,7 +56,7 @@ set :npm_roles, :all                              # default
 set :default_env, { path: "~/local/bin:~/local/bin:$PATH" }
 set :bower_flags, '--quiet --config.interactive=false'
 set :bower_roles, :all
-#set :bower_target_path, "#{fetch(:release_path)}srv/warvdka/current/content/themes/t3i_roots"
+#set :bower_target_path, "#{fetch(:release_path)}/content/themes/t3i_roots"
 # or
 set :bower_target_path, -> { "#{release_path}/content/themes/t3i_roots" }
 
