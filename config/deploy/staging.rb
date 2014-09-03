@@ -6,7 +6,7 @@
 set :stage, :staging
 set :stage_url, "http://warriorvodka.org"
 server "104.131.24.82", user: "tripl3inf", roles: %w{web app db}
-set :deploy_to, "/srv/warvdka/current"
+set :deploy_to, "/srv/staging/warvdka/current"
 
 ############################################
 # Setup Git
