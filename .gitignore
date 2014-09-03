@@ -1,0 +1,56 @@
+content/themes/roots
+
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+database.yml
+.credentials
+
+# OS generated files #
+######################
+**.idea**
+.DS_Store*
+._.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+.project
+.settings
+
+# Wordpress files #
+###################
+.htaccess
+xmlrpc.php
+sitemap.xml
+sitemap.xml.gz
+readme.html
+license.txt
+content/uploads/*
+content/upgrade/*
+content/cache/*
+content/backup/*
+wp-config.php
+
+# Misc #
+###################
+_compositions
+_assets
+node_modules
+ai-cache/*
+
+wordpress/**
+vendor/**
+**/vendor/**
+#content/plugins/**
+#content/mu-plugins/**
+
+content/themes/t3i_roots/vendor**
+content/themes/t3i_roots/assets/vendor**
+
+
+db_backups/
+
+.buildpath

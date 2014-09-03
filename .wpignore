@@ -1,0 +1,17 @@
+/lib
+/config
+Capfile
+Gemfile
+Gemfile.lock
+readme.md
+.gitattributes
+.gitignore
+.gitmodules
+
+db_backups
+
+
+**/node_modules/**
+**vendor/**
+content/mu-plugins/**
+content/uploads/**
