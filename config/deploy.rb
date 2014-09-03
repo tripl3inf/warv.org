@@ -10,19 +10,19 @@ require './config/slack'
 
 set :wp_user, "tripl3inf" # The admin username
 set :wp_email, "tripl3infinity@gmail.com" # The admin email address
-set :wp_sitename, "ten10" # The site title
+set :wp_sitename, "warriorvodka.org" # The site title
 set :wp_localurl, "http://localhost" # Your local environment URL
 
 ############################################
 # Setup project
 ############################################
 
-set :application, "wp_deploy"
-set :repo_url, "git@github.com:tripl3inf/ten10_app.git"
+set :application, "warv.org"
+set :repo_url, "git@github.com:tripl3inf/warv.org.git"
 set :scm, :git
 
 set :git_strategy, SubmoduleStrategy
-set :branch, :wp_deploy
+set :branch, :master
 
 
 ############################################
@@ -56,7 +56,7 @@ set :npm_roles, :all                              # default
 set :default_env, { path: "~/local/bin:~/local/bin:$PATH" }
 set :bower_flags, '--quiet --config.interactive=false'
 set :bower_roles, :all
-#set :bower_target_path, "#{fetch(:release_path)}srv/client/ten10/current/content/themes/t3i_roots"
+#set :bower_target_path, "#{fetch(:release_path)}srv/warvdka/current/content/themes/t3i_roots"
 # or
 set :bower_target_path, -> { "#{release_path}/content/themes/t3i_roots" }
 
@@ -145,7 +145,7 @@ namespace :deploy do
 
 
   before 'deploy:updated', 'grunt'
-  
+
   after :finished, :create_robots
   after :finishing, "deploy:cleanup"
 
